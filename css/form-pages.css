@@ -1,0 +1,60 @@
+.banner-dark {
+  background-color: var(--secondary-black);
+  height: 150px;
+  text-align: center;
+}
+
+h2 {
+  margin: auto;
+  padding-top: 35px;
+  color: var(--text-light);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.form-section {
+  padding: 50px;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+}
+
+.form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form div {
+  padding: 10px;
+  display: grid;
+}
+
+label {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+input,
+select {
+  width: 80%;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  font-size: 14px;
+  color: var(--text-light);
+  background-color: var(--primary-accent);
+}

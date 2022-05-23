@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+
+:root {
+  --primary-background: #fbfbfb;
+  --primary-black: #232121;
+  --secondary-black: #444444;
+  --primary-accent: #ca6e55;
+  --text-light: #ffffff;
+  --text-dark: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--primary-background);
+}
+
+/* General Styles */
+.bg-light {
+  height: 300px;
+  text-align: center;
+}
+
+.bg-light-1 {
+  height: 650px;
+  text-align: center;
+}
+
+.heading-2 {
+  height: 110px;
+  margin-top: 60px;
+  text-decoration: underline;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.bg-dark {
+  height: 650px;
+  padding-top: 5px;
+  background-color: var(--secondary-black);
+  color: var(--text-light);
+}
+
+/* Nav styling */
+.navbar {
+  background-color: var(--primary-black);
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 10px;
+  font-weight: medium;
+  font-size: 12;
+  text-decoration: none;
+  color: var(--text-light);
+}
+
+.nav-item:hover {
+  color: var(--primary-accent);
+}
+
+/* Hero styling */
+.hero {
+  height: 600px;
+  padding: 30px 30px 30px 40px;
+  color: var(--text-light);
+  background-color: var(--secondary-black);
+  display: flex;
+}
+
+img {
+  width: 450px;
+  height: 630px;
+}
+
+.hero-heading {
+  width: 764px;
+  height: 271px;
+  margin-top: 70px;
+
+  font-size: 96;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 125px;
+}
+
+.hero-paragraph {
+  width: 900px;
+  height: 72px;
+  margin-top: 50px;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+/* Main Page Content */
+.goals h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.goals ul {
+  font-style: normal;
+  font-weight: regular;
+  font-size: 18px;
+  line-height: 42px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.education,
+.certification,
+.job-experience,
+.hobbies-skills {
+  margin-top: 80px;
+}
+
+.education {
+  height: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: var(--secondary-black);
+  color: var(--text-light);
+}
+
+.details {
+  height: 45px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+.subscript {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Form Styling */
+.form {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+form div {
+  text-align: left;
+  padding: 10px;
+  display: grid;
+}
+
+label {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+input,
+select {
+  width: 80%;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  font-size: 14px;
+  color: var(--text-light);
+  background-color: var(--primary-accent);
+}
+
+/* Footer Styling */
+footer {
+  background-color: var(--primary-black);
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  display: inline-block;
+  padding: 10px;
+
+  font-weight: medium;
+  font-size: 12;
+  text-decoration: none;
+  color: var(--text-light);
+}
+
+footer a:hover {
+  color: var(--primary-green);
+}
